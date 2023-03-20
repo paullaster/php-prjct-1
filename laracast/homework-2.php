@@ -75,8 +75,10 @@
                 <li>
                     <span>movie title: </span><?=$movie['title']?> <br/>
                     <span>movie category: </span><?=$movie['category']?> <br/>
-                    <span>movie category: </span><?=$movie['category']?> <br/>
-                    
+                    <span>main mainCharacters : 
+                        <?php foreach ($movie['mainCharacters'] as $mainCharacter) : ?>
+                        <?php endforeach; ?>
+                    </span><br/>
                 </li>
             <?php endforeach; ?>
         </ul>
