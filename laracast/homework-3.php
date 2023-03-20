@@ -17,6 +17,7 @@
                         $filteredItems[] = $item;
                     }
                 }
+                return $filteredItems;
             }
         ?>
         <?php
