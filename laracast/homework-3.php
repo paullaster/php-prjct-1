@@ -51,7 +51,9 @@
             <?php
                 foreach($filteredBooks as $book) :
             ?>
-                
+                <li>
+                    <span>Name: </span><?= $book['name'] ?> <br>
+                </li>
             <?php endforeach; ?>
         </ul>
     </body>
