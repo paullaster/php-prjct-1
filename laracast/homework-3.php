@@ -8,6 +8,6 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    
+        <h1>PHP LAMBDA FUNCTIONS</h1>
     </body>
 </html>
