@@ -70,8 +70,7 @@
                         ]
          ];
         ?>
-        <?php
-            
-        ?>
+        <?php foreach ($movies as $movie) : ?>
+        <?php endforeach; ?>
     </body>
 </html>
