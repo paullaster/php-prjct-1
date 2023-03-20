@@ -9,7 +9,19 @@
         <?php
          $movies= [
             [
-                'titel' => ''
+                'title' => 'Black panther',
+                'category' => 'Fiction Crit',
+                'mainCharacters' =>[
+                    [
+                        'name' => 'Lupita Nyong\'',
+                        'age' => 42,
+                    ],
+                    [
+                        'name' => 'Hubris Daniela',
+                        'age' => 46,
+                    ]
+                    ],
+                    'releaseYear' => 2019
             ]
          ];
         ?>
