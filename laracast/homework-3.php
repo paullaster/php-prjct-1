@@ -47,5 +47,9 @@
                 return $book['publicationYear'] >='2020';
             })
         ?>
+        <?php
+            foreach($filteredBooks as $book) :
+        ?>
+        <?php endforeach;?>
     </body>
 </html>
