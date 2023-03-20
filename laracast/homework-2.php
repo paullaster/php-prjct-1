@@ -7,7 +7,11 @@
     <body>
         <h1>PHP FUNCTIONS</h1>
         <?php
-        
+         $movies= [
+            [
+                'titel' => ''
+            ]
+         ];
         ?>
     </body>
 </html>
