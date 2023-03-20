@@ -7,6 +7,9 @@
     <body>
         <h1>PHP FUNCTIONS</h1>
         <?php
+            
+        ?>
+        <?php
          $movies= [
             [
                 'title' => 'Black panther',
@@ -82,9 +85,10 @@
                                 <span>Age: </span><?=$mainCharacter['age']?>
                             </li>
                         <?php endforeach; ?>
-                    </span><br/>
+                    </span>
                     <span>Year of release: </span> <?=$movie['releaseYear']?> <br/>
                 </li>
+                <br />
             <?php endforeach; ?>
         </ul>
     </body>
