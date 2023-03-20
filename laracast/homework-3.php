@@ -56,7 +56,7 @@
                     <span>Author: </span><?= $book['author'] ?> <br>
                     <span>Publication year: </span><?= $book['publicationYear'] ?> <br>
                     <a href="<?=$book['url']?>">Link here</a>
-                </li>
+                </li><br>
             <?php endforeach; ?>
         </ul>
     </body>
