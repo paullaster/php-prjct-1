@@ -28,8 +28,14 @@
                 ]
             ];
         ?>
-        <?php foreach ($books as $book) : ?>
-            
-        <?php endforeach;?>
+        <ul>
+            <?php foreach ($books as $book) : ?>
+                <li>
+                    <span>Book title <?=$book[name]?></span>
+                    <span>Author <?=$book[author]?></span>
+                    <span>Publication year <?=$book[publicationYear]?></span>
+                </li>
+            <?php endforeach;?>
+        </ul>
     </body>
 </html>
