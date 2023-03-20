@@ -10,11 +10,26 @@
     <body>
         <h1>PHP LAMBDA FUNCTIONS</h1>
         <?php
-            $books = [
+             $books = [
                 [
-                    
+                    'name' => 'Road to React',
+                    'url' => 'http://reactjs.org',
+                    'author' => 'Robin Wieruch',
+                    'publicationYear' => '2020'
+                ],
+                [
+                    'name' => 'Road to Typescript',
+                    'url' => 'http://typescript.org',
+                    'author' => 'Robin Wieruch',
+                    'publicationYear' => '2019'
+                ],
+                [
+                    'name' => 'Road to GraphQl',
+                    'url' => 'http://graphql.org',
+                    'author' => 'Robin Wieruch',
+                    'publicationYear' => '2021'
                 ]
-            ]
+            ];
         ?>
     </body>
 </html>
