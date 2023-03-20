@@ -31,10 +31,10 @@
         <ul>
             <?php foreach ($books as $book) : ?>
                 <li>
-                    <span>Book title <?=$book[name]?></span>
-                    <span>Author <?=$book[author]?></span>
-                    <span>Publication year <?=$book[publicationYear]?></span>
-                    <a href="$book[url]">Buy the book here</a>
+                    <span>Book title: <?=$book['name']?></span>
+                    <span>Author: <?=$book['author']?></span>
+                    <span>Publication year: <?=$book['publicationYear']?></span>
+                    <a href="<?=$book['url']?>">Buy the book here</a>
                 </li>
             <?php endforeach;?>
         </ul>
