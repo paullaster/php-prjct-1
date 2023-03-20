@@ -14,7 +14,7 @@
                 $filteredItems = [];
                 foreach ($items as $item){
                     if($fn($item)) {
-                        
+                        $filteredItems[] = $item;
                     }
                 }
             }
