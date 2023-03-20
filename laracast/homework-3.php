@@ -11,7 +11,12 @@
         <h1>PHP LAMBDA FUNCTIONS</h1>
         <?php
             function filter($items, $fn) {
-                
+                $filteredItems = [];
+                foreach ($items as $item){
+                    if($fn($item)) {
+                        
+                    }
+                }
             }
         ?>
         <?php
