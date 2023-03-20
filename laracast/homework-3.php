@@ -44,7 +44,7 @@
         ?>
         <?php
             $filteredBooks = array_filter($books, function($book){
-                return $book['publicationYear'] >'1950' && $book['publicationYear'] <'2020';
+                return $book['publicationYear'] >='1950' && $book['publicationYear'] <='2020';
             })
         ?>
         <ul>
