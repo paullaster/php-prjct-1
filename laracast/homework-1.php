@@ -28,5 +28,8 @@
                 ]
             ];
         ?>
+        <?php foreach ($books as $book) : ?>
+            
+        <?php endforeach;?>
     </body>
 </html>
