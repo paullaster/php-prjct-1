@@ -26,9 +26,11 @@
           'Road to TypeScript',
         ];
       ?>
-      <?php foreach($books as $book)?>
-        <
-      <?php?>
+      <ul>
+      <?php foreach ($books as $book) : ?>
+        <li><?=$book?></li>
+      <?php endforeach; ?>
+      </ul>
     </div>
   </body>
 </html>
