@@ -10,7 +10,7 @@
             function filterMovies($moviesArray, $releaseYear) {
                 $filteredMovies = [];
                 foreach($moviesArray as $movie){
-                    if($movie['releaseYear'] === '2021'){
+                    if($movie['releaseYear'] === $releaseYear){
                         $filteredMovies[] = $movie;
                     }
                 return $filteredMovies;    
@@ -82,7 +82,7 @@
          ];
         ?>
         <ul>
-            <?php foreach (filterMovies($movies, '') as $movie) : ?>
+            <?php foreach (filterMovies($movies, '2019') as $movie) : ?>
                 <li>
                     <span>movie title: </span><?=$movie['title']?> <br/>
                     <span>movie category: </span><?=$movie['category']?> <br/>
