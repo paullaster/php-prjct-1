@@ -73,7 +73,7 @@
         <ul>
             <?php foreach ($movies as $movie) : ?>
                 <li>
-                    
+                    <span>movie title:</span><?=$movie['title']?>
                 </li>
             <?php endforeach; ?>
         </ul>
