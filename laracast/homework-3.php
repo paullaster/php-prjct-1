@@ -42,5 +42,10 @@
                 ]
             ];
         ?>
+        <?php
+            $filteredBooks = filter($books, function($book){
+                return $book['publicationYear'] >='2020';
+            })
+        ?>
     </body>
 </html>
