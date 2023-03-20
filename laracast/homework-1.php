@@ -6,6 +6,6 @@
     </head>
     <body>
         <h1>Associative arrays</h1>
-        
+        <?php?>
     </body>
 </html>
