@@ -7,8 +7,13 @@
     <body>
         <h1>PHP FUNCTIONS</h1>
         <?php
-            function filterMovies($movies, $releaseYear) {
+            function filterMovies($moviesArray, $releaseYear) {
                 $filteredMovies = [];
+                foreach($moviesArray as $movie){
+                    if($movie['releaseYear'] >= 2000){
+                        $filteredMovies[] = $movie;
+                    }
+                }
             }
         ?>
         <?php
