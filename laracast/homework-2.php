@@ -6,5 +6,8 @@
     </head>
     <body>
         <h1>PHP FUNCTIONS</h1>
+        <?php
+        
+        ?>
     </body>
 </html>
