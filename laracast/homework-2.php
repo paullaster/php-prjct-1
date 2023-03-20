@@ -70,7 +70,12 @@
                         ]
          ];
         ?>
-        <?php foreach ($movies as $movie) : ?>
-        <?php endforeach; ?>
+        <ul>
+            <?php foreach ($movies as $movie) : ?>
+                <li>
+                    
+                </li>
+            <?php endforeach; ?>
+        </ul>
     </body>
 </html>
