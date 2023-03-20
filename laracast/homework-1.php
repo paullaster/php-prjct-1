@@ -34,6 +34,7 @@
                     <span>Book title <?=$book[name]?></span>
                     <span>Author <?=$book[author]?></span>
                     <span>Publication year <?=$book[publicationYear]?></span>
+                    <a href="$book[url]">Buy the book here</a>
                 </li>
             <?php endforeach;?>
         </ul>
