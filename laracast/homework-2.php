@@ -75,6 +75,8 @@
                 <li>
                     <span>movie title: </span><?=$movie['title']?> <br/>
                     <span>movie category: </span><?=$movie['category']?> <br/>
+                    <span>movie category: </span><?=$movie['category']?> <br/>
+                    
                 </li>
             <?php endforeach; ?>
         </ul>
