@@ -4,4 +4,7 @@
         <meta charset="UTF-8">
         <title>PHP FUNCTIONS</title>
     </head>
+    <body>
+        
+    </body>
 </html>
