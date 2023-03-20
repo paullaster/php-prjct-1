@@ -6,6 +6,21 @@
     </head>
     <body>
         <h1>Associative arrays</h1>
-        <?php?>
+        <?php
+            $books = [
+                [
+                    'name' => 'Road to React',
+                    'url' => 'http://reactjs.org',
+                    'author' => 'Robin Wieruch',
+                    'publicationYear' => '2020'
+                ],
+                [
+                    'name' => 'Road to React',
+                    'url' => 'http://reactjs.org',
+                    'author' => 'Robin Wieruch',
+                    'publicationYear' => '2020'
+                ]
+            ];
+        ?>
     </body>
 </html>
