@@ -13,6 +13,7 @@
                     if($movie['releaseYear'] >= 2000){
                         $filteredMovies[] = $movie;
                     }
+                    
                 }
             }
         ?>
