@@ -53,6 +53,7 @@
             ?>
                 <li>
                     <span>Name: </span><?= $book['name'] ?> <br>
+                    <span>Author: </span><?= $book['author'] ?> <br>
                 </li>
             <?php endforeach; ?>
         </ul>
