@@ -15,10 +15,16 @@
                     'publicationYear' => '2020'
                 ],
                 [
-                    'name' => 'Road to React',
-                    'url' => 'http://reactjs.org',
+                    'name' => 'Road to Typescript',
+                    'url' => 'http://typescript.org',
                     'author' => 'Robin Wieruch',
-                    'publicationYear' => '2020'
+                    'publicationYear' => '2019'
+                ],
+                [
+                    'name' => 'Road to GraphQl',
+                    'url' => 'http://graphql.org',
+                    'author' => 'Robin Wieruch',
+                    'publicationYear' => '2021'
                 ]
             ];
         ?>
