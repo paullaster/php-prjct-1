@@ -82,7 +82,7 @@
          ];
         ?>
         <ul>
-            <?php foreach (filterMovies($movies, 2000) as $movie) : ?>
+            <?php foreach (filterMovies($movies, 2021) as $movie) : ?>
                 <li>
                     <span>movie title: </span><?=$movie['title']?> <br/>
                     <span>movie category: </span><?=$movie['category']?> <br/>
