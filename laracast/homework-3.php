@@ -10,7 +10,9 @@
     <body>
         <h1>PHP LAMBDA FUNCTIONS</h1>
         <?php
-        
+            function filter($items, $fn) {
+                
+            }
         ?>
         <?php
              $books = [
