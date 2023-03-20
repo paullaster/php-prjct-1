@@ -17,5 +17,18 @@
         }
       ?>
     </h1>
+    <div>
+      <h2>Books recommendation</h2>
+      <?php
+        $books = [
+          'Road to React',
+          'Road to graphql',
+          'Road to TypeScript',
+        ];
+      ?>
+      <?php foreach($books as $book)?>
+        <
+      <?php?>
+    </div>
   </body>
 </html>
