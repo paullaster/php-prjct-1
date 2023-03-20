@@ -5,6 +5,6 @@
         <title>PHP FUNCTIONS</title>
     </head>
     <body>
-        
+        <h1>PHP FUNCTIONS</h1>
     </body>
 </html>
