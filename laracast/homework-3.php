@@ -10,6 +10,9 @@
     <body>
         <h1>PHP LAMBDA FUNCTIONS</h1>
         <?php
+        
+        ?>
+        <?php
              $books = [
                 [
                     'name' => 'Road to React',
