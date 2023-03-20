@@ -79,10 +79,11 @@
                         <?php foreach ($movie['mainCharacters'] as $mainCharacter) : ?>
                             <li>
                                 <span>Name: </span><?=$mainCharacter['name']?>
-                                <span>Name: </span><?=$mainCharacter['age']?>
+                                <span>Age: </span><?=$mainCharacter['age']?>
                             </li>
                         <?php endforeach; ?>
                     </span><br/>
+                    <span>Year of release: </span> <?=$movie['releaseYear']?> <br/>
                 </li>
             <?php endforeach; ?>
         </ul>
