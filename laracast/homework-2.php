@@ -7,7 +7,9 @@
     <body>
         <h1>PHP FUNCTIONS</h1>
         <?php
-            
+            function filterMovies($movies, $releaseYear) {
+                
+            }
         ?>
         <?php
          $movies= [
